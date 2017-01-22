@@ -21,6 +21,10 @@
     <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
       <string>$CAMERA_USAGE_DESCRIPTION</string>
     </config-file>
+    <preference name="PHOTO_LIBRARY_USAGE_DESCRIPTION" default=" "/>
+    <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+      <string>$PHOTO_LIBRARY_USAGE_DESCRIPTION</string>
+    </config-file>
     <resource-file src="src/ios/scannerOverlay.xib"/>
     <resource-file src="src/ios/CDVBarcodeScanner.bundle"/>
     <header-file src="src/ios/zxing-all-in-one.h"/>
